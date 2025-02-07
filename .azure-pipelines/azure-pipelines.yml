@@ -25,7 +25,7 @@ steps:
 
 # Run sum.py and handle potential failures
 - script: |
-    python sum.py || echo "Python script execution failed"
+    python add.py || echo "Python script execution failed"
   displayName: "Run add.py"
 
 # Run an inline Python script as part of the pipeline
